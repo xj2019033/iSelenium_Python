@@ -37,7 +37,7 @@ class ISelenium(unittest.TestCase):
                                        chrome_options=chrome_options)
 
     def test_webui_1(self):
-        self.driver.get("https://ww.baidu.com")
+        self.driver.get("https://www.baidu.com")
         print('打开浏览器，访问 www.baidu.com')
         time.sleep(5)
         assert u"百度一下" in self.driver.title
