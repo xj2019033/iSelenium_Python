@@ -33,6 +33,8 @@ class ISelenium(unittest.TestCase):
         if using_headless is not None and using_headless.lower() == 'true':
             print('使用无界面方式运行')
             chrome_options.add_argument("--headless")
+        ss=config.get('driver', 'chrome_driver')
+        print("1",ss)
 
         self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
                                        chrome_options=chrome_options)
