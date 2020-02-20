@@ -35,7 +35,7 @@ class ISelenium(unittest.TestCase):
             chrome_options.add_argument("--headless")
         ss=config.get('driver', 'chrome_driver')
         print("1",ss)
-
+        chrome_options.add_argument('--no-sandbox')
         self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
                                        chrome_options=chrome_options)
 
