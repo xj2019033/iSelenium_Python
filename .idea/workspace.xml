@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="260f5ac0-28cc-42c0-86c0-93aa60cc00b8" name="Default Changelist" comment="" />
+    <list default="true" id="260f5ac0-28cc-42c0-86c0-93aa60cc00b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/iSelenium_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iSelenium_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - Nosetes_test_webui_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iselenium.ini" beforeDir="false" afterPath="$PROJECT_DIR$/iselenium.ini" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,8 +195,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Nosetests for web_ut.ISelenium" />
-        <item itemvalue="Python tests.Nosetests for web_ut.ISelenium.test_webui_2" />
         <item itemvalue="Python tests.Unittests for web_ut.ISelenium.test_webui_1" />
+        <item itemvalue="Python tests.Nosetests for web_ut.ISelenium.test_webui_2" />
       </list>
     </recent_temporary>
   </component>
