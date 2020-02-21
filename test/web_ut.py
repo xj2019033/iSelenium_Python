@@ -40,8 +40,10 @@ class ISelenium(unittest.TestCase):
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument('--disable-dev-shm-usage')
-        self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
-                                       chrome_options=chrome_options)
+        chrome_driver_binary = "/home/xj14/chromedriver"
+        #self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
+                                       #chrome_options=chrome_options)
+        self.driver=webdriver.Chrome(chrome_driver_binary,chrome_options=chrome_options)
 
     def test_webui_1(self):
         self.driver.get("https://www.baidu.com")
