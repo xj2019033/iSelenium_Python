@@ -36,7 +36,7 @@ class ISelenium(unittest.TestCase):
         ss=config.get('driver', 'chrome_driver')
         print("1",ss)
         chrome_options.binary_location='/usr/bin/google-chrome-stable'
-        chrome_options.add_argument('--headless')
+        #chrome_options.add_argument('--headless')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument('--disable-dev-shm-usage')
