@@ -35,6 +35,7 @@ class ISelenium(unittest.TestCase):
             chrome_options.add_argument("--headless")
         ss=config.get('driver', 'chrome_driver')
         print("1",ss)
+        chrome_options.binary_location='/usr/bin/google-chrome'
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument("--disable-gpu")
         self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
