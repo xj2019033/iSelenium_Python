@@ -39,7 +39,6 @@ class ISelenium(unittest.TestCase):
         chrome_options.add_argument('--headless')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument('--disable-dev-shm-usage')
         self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
                                        chrome_options=chrome_options)
 
